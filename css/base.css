@@ -1,0 +1,69 @@
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.floatl {
+  float: left;
+}
+
+.floatr {
+  float: right;
+}
+
+.clearer {
+  clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+  overflow: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.od {
+  overflow: hidden;
+}
+
+.pinktext {
+  color: #e3007f;
+}
+
+.bluetext {
+  color: #017fc5;
+}
+
+.pagingbox {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.el-pager li {
+  font-size: 16px;
+}
+
+.twoline {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
